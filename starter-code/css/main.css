@@ -114,18 +114,30 @@ div > img {
 .logos img{
     padding-left:15%;
 }
-
+.main-logo{
+    height: 15vh;
+    margin: 0 0 0 2vw;
+    padding: 0;
+}
 @keyframes bounceUp{
     0%{
-      transform: translateY(0px);
+      transform: rotate(0deg);
     }
-    50%{
-      transform: translateY(-30px);
+
+    20%{
+        transform: rotate(-36)
     }
-    51%{
-      transform: translateY(-30px);
+    40%{
+      transform: rotate(-13deg);
+    }
+    60%{
+      transform: rotate(7deg);
+    }
+    80%{
+      transform: rotate(27deg);
     }
     100%{
-      transform: translateY(0px);
+      transform: rotate(1deg);
+        
     }
   }
